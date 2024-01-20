@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navtop {
+    background-color: #d0a9f7;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    position: sticky;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #d0a9f7;
+    font-weight: normal;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #d0a9f7;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+
+.update form {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+.update form label {
+    display: inline-flex;
+    width: 400px;
+    padding: 10px 0;
+    margin-right: 25px;
+}
+.update form input {
+    padding: 10px;
+    width: 400px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+.update form input[type="submit"] {
+    display: block;
+    background-color: #8438b6;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 200px;
+  margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+    background-color: #8438b6;
+}
+
+
